@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Climate Change Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #97c9f8;
+        }
+        h1 {
+            margin: 20px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            width: 80%;
+        }
+        .card {
+            background-color: #fefeff;
+            border: 2px solid #02049e;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .card h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            max-height: 100px;
+            margin-bottom: 15px;
+        }
+        .learn-more {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            margin-top: 10px;
+        }
+        .learn-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Global Climate Change Map</h1>
+    <div class="grid-container">
+        <div class="card">
+            <h2>Greenhouse Gases</h2>
+            <img src="./green house.png" alt="Greenhouse Gases Graph">
+            <p>The heating influence of all human-produced greenhouse gases was 49 percent higher in 2022 than it was in 1990.</p>
+            <a href="https://www.climate.gov/climatedashboard" class="learn-more">Learn more</a>
+        </div>
+        <div class="card">
+            <h2>Arctic Sea Ice</h2>
+            <img src=".//artic seaice.png" alt="Arctic Sea Ice Graph">
+            <p>Since 1979, the extent of ice covering the Arctic Ocean at the end of summer has shrunk by more than 40 percent.</p>
+            <a href="https://www.climate.gov/climatedashboard" class="learn-more">Learn more</a>
+        </div>
+        <div class="card">
+            <h2>Carbon Dioxide</h2>
+            <img src="./carbon.png" alt="Carbon Dioxide Graph">
+            <p>Atmospheric carbon dioxide has risen more than 50 percent since people began burning fossil fuels for energy.</p>
+            <a href="https://www.climate.gov/climatedashboard" class="learn-more">Learn more</a>
+        </div>
+        <div class="card">
+            <h2>Mountain Glaciers</h2>
+            <img src="./mountain glacier.png" alt="Mountain Glaciers Graph">
+            <p>The glaciers in a key reference network lost an average thickness of 94 feet between 1970 and 2023 (preliminary data).</p>
+            <a href="https://www.climate.gov/climatedashboard" class="learn-more">Learn more</a>
+        </div>
+        <div class="card">
+            <h2>Ocean Heat</h2>
+            <img src="./oceanheat.png" alt="Ocean Heat Graph">
+            <p>The ocean is storing 91% of the excess heat from global warming, causing sea level rise, ice shelf retreat, and stress on marine life.</p>
+            <a href="https://www.climate.gov/climatedashboard" class="learn-more">Learn more</a>
+        </div>
+        <div class="card">
+            <h2>Sea Level</h2>
+            <img src="./Screenshot 2024-11-06 152420.png" alt="Sea Level Graph">
+            <p>Sea level has risen 8-9 inches since 1880, and the rate of increase has accelerated over the satellite era.</p>
+            <a href="https://www.climate.gov/climatedashboard" class="learn-more">Learn more</a>
+        </div>
+        <div class="card">
+            <h2>Spring Snow</h2>
+            <img src="./springsnow.png" alt="Spring Snow Graph">
+            <p>Since the start of satellite observations in 1967, June snow cover has shrunk by 12.9 percent per decade.</p>
+            <a href="https://www.climate.gov/climatedashboard" class="learn-more">Learn more</a>
+        </div>
+        <div class="card">
+            <h2>Incoming Sunlight</h2>
+            <img src="./Screenshot 2024-11-06 152420.png" alt="Incoming Sunlight Graph">
+            <p>The sun's brightness does vary over time, but no changes have occurred that are big enough to cause observed global warming.</p>
+            <a href="https://www.climate.gov/climatedashboard" class="learn-more">Learn more</a>
+        </div>
+    </div>
+
+</body>
+</html>
